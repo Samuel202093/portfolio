@@ -7,9 +7,6 @@ import { UseActiveContext } from '../context/active'
 import axios from 'axios'
 
 
-
-// console.log(import.meta.env.VITE_RESEND_API_KEY)
-
 const Contact = () => {
     const [loading, setLoading] = useState(false)
     const [formData, setFormData] = useState({
@@ -38,15 +35,21 @@ const Contact = () => {
         setLoading(true)
         try {
             if (formData.email != "" || formData.message != "") {
+                const url = 'https://resend-backend.vercel.app/api/v1'
+                const data = {
+                    name: `${formData.name}`,
+                    email:`${formData.email}`,
+                    message: `${formData.message}`
+                }
 
-                axios({method:'post', url:'https://api.resend.com/emails', headers:{'Authorization': `Bearer ${import.meta.env.VITE_RESEND_API_KEY}`,'Content-Type': 'Application/json'}, data:{'from':'onboarding@resend.dev', 'to':'onyebuekes93@gmail.com', 'subject':'Message from portfolio contact form', 'reply_to': `${formData.email}`, 'text': `${formData.message}`} })
+                await axios.post(url, data)
                 .then((res)=> res.data)
-                .catch((error)=> error)
+                .catch((err)=> err)
+                toast.success(`Message sent!! I will get in touch with you in few days`,{transition: Slide, position:'top-right'})
                 setLoading(false)
-                toast.success(`Thank you ${formData.name} for your message. I will get in touch with you in few days.`,{transition: Slide, position:'top-right'})
                 setFormData({
-                    name: '',
-                    email: '', 
+                    name:'',
+                    email:'',
                     message:''
                 })
         

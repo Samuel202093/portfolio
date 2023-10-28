@@ -21,7 +21,7 @@ const About = () => {
         
         <h3 className='text-xl text-center text-gray-950 font-extrabold mb-4'>About Samuel</h3>
         
-        <p className='text-base'>After graduating with a <span className='font-extrabold text-gray-900'>degree in  computer Engineering</span>, I decide to increase my knowledge due to my passion for programming by enrolling in a coding bootcamp and learned <span className='font-extrabold text-gray-900'>fullstack web development.</span> </p>
+        <p className='text-base'>After graduating with a <span className='font-extrabold text-gray-900'>degree in  computer Engineering</span>, I decided to increase my knowledge due to my passion for programming by enrolling in a coding bootcamp and learned <span className='font-extrabold text-gray-900'>fullstack web development.</span> </p>
         <p className='text-base'>All through my career, I've had the opportunity to work on several projects. The experience gotten from the development of these projects has equipped me with knowledge and problem-solving skills necessary to tackle complex challenges head-on.</p>
 
         <p className='text-base'>Furthermore, With my technical skills, <span className='text-gray-900 font-extrabold'>I thrive in collaborative environments working with multidisciplinary teams</span> to achieve project goals. <span className='text-gray-900 font-extrabold'>I'm always eager to learn </span> and stay up-to-date with latest technologies and industry standard to ensure best solutions for client.</p>

@@ -1,3 +1,7 @@
+import gadget from '../assets/img/hi-gadget2.png'
+import foodImg from '../assets/img/food-recipe-explore.png'
+import examImg from '../assets/img/exams.png'
+
 export const links = [
     {
         id: 1,
@@ -29,27 +33,39 @@ export const links = [
 export const projectData = [
     {
         id: 1,
-        title: "Loctech Blog Application",
-        description: "I worked as the backend developer on this project. Logged in users can save a post.",
-        tags:["React", "framer-motion", "Nodejs", "Nodemailer", "MongoDB"]
+        title: "Examination Upload application",
+        description: "I worked as the backend developer on this project. The application is used for data entry and only authorized users can perform certain operations in the application.",
+        tags:["NodeJs", "Express", "JWT", "Cloudinary", "Postgresql"],
+        img: examImg,
+        github_link:"https://github.com/Samuel202093/exam_server",
+        url: ""
     },
     {
         id: 2,
         title: "Hi-Gadget E-commerce Application",
         description: "I worked as the fullstack developer on this project. Users places order and then makes payment online.",
-        tags:["React","Tailwindcss", "Redux", "nodejs", "MongoDB", "Nodemailer", "Stripe", "Chartjs"]
+        tags:["React","Tailwindcss", "Redux", "nodejs", "MongoDB", "Nodemailer", "Stripe", "Chartjs"],
+        img: gadget,
+        github_link: "https://github.com/Samuel202093/e-commerce-frontend",
+        url: "https://hi-gadget.netlify.app"
+        
     },
     {
         id: 3,
         title: "Job-Zone Application",
         description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
-        tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext"]
+        tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext"],
+        github_link: "https://github.com/Samuel202093/job_search",
+        url: "https://job-search-api.netlify.app"
     },
     {
         id: 4,
         title: "Food-recipe Application",
         description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
-        tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext", "swiperjs"]
+        tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext", "swiperjs"],
+        img: foodImg,
+        github_link: "https://github.com/Samuel202093/food_recipe",
+        url: "https://food-recipe-port.netlify.app"
     }
 ]
 
@@ -60,43 +76,43 @@ export const technicalSkills = [
     },
     {
         name: 'Css',
-        percent: 90
-    },
-    {
-        name: 'Tailwindcss',
-        percent: 88
-    },
-    {
-        name: 'Javascript',
-        percent: 75
-    },
-    {
-        name: 'Reactjs',
         percent: 70
     },
     {
+        name: 'Tailwindcss',
+        percent: 70
+    },
+    {
+        name: 'Javascript',
+        percent: 65
+    },
+    {
+        name: 'Reactjs',
+        percent: 63
+    },
+    {
         name: 'Redux',
-        percent: 60
+        percent: 55
     }, 
     {
         name: 'Framer-motion',
-        percent: 80
+        percent: 70
     },
     {
         name: 'NodeJs',
-        percent: 75
+        percent: 65
     },
     {
         name: 'ExpressJs',
-        percent: 73
-    },
-    {
-        name: 'MongoDb',
         percent: 75
     },
     {
+        name: 'MongoDb',
+        percent: 70
+    },
+    {
         name: 'PostgreSql',
-        percent: 78,
+        percent: 75,
     },
     {
         name: 'Git',

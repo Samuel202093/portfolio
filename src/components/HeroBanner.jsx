@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 import { MdOutlineFileDownload } from "react-icons/md"
 import { useInView } from 'react-intersection-observer'
 // import { Link } from 'react-router-dom'
-import myPhoto from '../assets/samuel.jpg'
+import myPhoto from '../assets/img/samuel.jpg'
 import { UseActiveContext } from '../context/active'
 import CV from '../assets/file/samuel.pdf'
 
