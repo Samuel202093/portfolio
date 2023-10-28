@@ -1,6 +1,7 @@
 import gadget from '../assets/img/hi-gadget2.png'
 import foodImg from '../assets/img/food-recipe-explore.png'
 import examImg from '../assets/img/exams.png'
+import jobImg from '../assets/img/job_search.png'
 
 export const links = [
     {
@@ -55,6 +56,7 @@ export const projectData = [
         title: "Job-Zone Application",
         description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
         tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext"],
+        img: jobImg,
         github_link: "https://github.com/Samuel202093/job_search",
         url: "https://job-search-api.netlify.app"
     },
