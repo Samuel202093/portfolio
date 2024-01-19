@@ -38,6 +38,7 @@ export const projectData = [
         description: "I worked as the backend developer on this project. The application is used for data entry and only authorized users can perform certain operations in the application.",
         tags:["NodeJs", "Express", "JWT", "Cloudinary", "Postgresql"],
         img: examImg,
+        stack: "Backend",
         github_link:"https://github.com/Samuel202093/exam_server",
         url: ""
     },
@@ -45,8 +46,9 @@ export const projectData = [
         id: 2,
         title: "Hi-Gadget E-commerce Application",
         description: "I worked as the fullstack developer on this project. Users places order and then makes payment online.",
-        tags:["React","Tailwindcss", "Redux", "nodejs", "MongoDB", "Nodemailer", "Stripe", "Chartjs"],
+        tags:["React","Tailwindcss", "Redux", "nodejs", "MongoDB", "Nodemailer", "Stripe", "Chartjs", "Framer-motion"],
         img: gadget,
+        stack: "Fullstack",
         github_link: "https://github.com/Samuel202093/e-commerce-frontend",
         url: "https://hi-gadget.netlify.app"
         
@@ -57,6 +59,7 @@ export const projectData = [
         description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
         tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext"],
         img: jobImg,
+        stack: "Frontend",
         github_link: "https://github.com/Samuel202093/job_search",
         url: "https://job-search-api.netlify.app"
     },
@@ -64,8 +67,9 @@ export const projectData = [
         id: 4,
         title: "Food-recipe Application",
         description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
-        tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext", "swiperjs"],
+        tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext", "swiperjs", "External Api"],
         img: foodImg,
+        stack: "Frontend",
         github_link: "https://github.com/Samuel202093/food_recipe",
         url: "https://food-recipe-port.netlify.app"
     }
@@ -97,8 +101,8 @@ export const technicalSkills = [
         percent: 55
     }, 
     {
-        name: 'Framer-motion',
-        percent: 70
+        name: 'Typescript',
+        percent: 75
     },
     {
         name: 'NodeJs',
@@ -124,37 +128,39 @@ export const technicalSkills = [
 
 export const professionalSkill = [
     {
-        name: 'Excellent Communication',
-        percent: 87
-    },
-    {
-        name: 'Adaptability/Flexibility',
-        percent: 80
-    },
-    {
         name: 'Creativity',
         percent: 85
+    },
+    {
+        name: 'Excellent Communication',
+        percent: 87
     },
     {
         name: 'Teamwork',
         percent: 90
     },
     {
-        name: 'Problem-solving',
-        percent: 75
-    },
-    {
-        name: 'Responsiveness',
-        percent: 95
-    },
-    {
-        name: 'Self-awareness/Self-learning',
-        percent: 95
+        name: 'Adaptability/Flexibility',
+        percent: 80
     },
     {
         name: 'Persistence',
         percent: 85
     },
+    {
+        name: 'Self-awareness/Self-learning',
+        percent: 95
+    },
+    
+    {
+        name: 'Problem-solving',
+        percent: 75
+    },
+  
+    {
+        name: 'Responsiveness',
+        percent: 95
+    }, 
     {
         name: 'Time-Management',
         percent: 88
