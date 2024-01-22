@@ -78,7 +78,7 @@ body{
 /* styling for modal scrollbar */
 
 .modalWrapper::-webkit-scrollbar{
-  width: 5px;
+  width: 6px;
 }
 
 .modalWrapper::-webkit-scrollbar-thumb{
