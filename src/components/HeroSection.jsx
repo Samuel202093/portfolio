@@ -6,7 +6,7 @@ const HeroSection = ({handleShow}) => {
   return (
     <section className='lg:flex md:justify-between lg:w-[70%] min-h-[6vh] border-[1px]y border-blacky mx-auto p-2 lg:mt-10 md:mt-4' id='home'>
 
-        <motion.div className='imageWrapper w-[60%] lg:w-[70%] h-[35vh] md:h-[50vh] lg:h-[35vh] border-2 border-[rgb(80,112,53)] rounded-[50%] mt-3 mx-auto lg:mx-0' initial={{opacity: 0, scale: 0}} animate={{opacity:1, scale: 1}} transition={{ type: "tween", ease:"backOut", stiffness:100, delay: 0.5, duration: 1.5}}>
+        <motion.div className='imageWrapper w-[65%] lg:w-[70%] h-[35vh] md:h-[50vh] lg:h-[35vh] border-2 border-[rgb(80,112,53)] rounded-[50%] mt-3 mx-auto lg:mx-0' initial={{opacity: 0, scale: 0}} animate={{opacity:1, scale: 1}} transition={{ type: "tween", ease:"backOut", stiffness:100, delay: 0.5, duration: 1.5}}>
         </motion.div>
 
         <motion.div className='flex flex-col gap-3 lg:px-6 px-3 mt-8' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} transition={{type:"keyframes", duration: 1, delay: 0.85}}>

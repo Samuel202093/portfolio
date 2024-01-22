@@ -81,9 +81,19 @@ body{
   width: 6px;
 }
 
+.modalWrapper{
+  scrollbar-width: 6px;
+}
+
+/* mozilla firefox browser */
 .modalWrapper::-webkit-scrollbar-thumb{
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 6px;
+  background-color: rgba(0,0,0,0.3); 
+  border-radius: 6px; 
+} 
+
+/* microsoft edge(chromium browser) */
+.modalWrapper::-ms-scrollbar{
+  width: 6px;
 }
 
 .modalWrapper::-webkit-scrollbar-track {
