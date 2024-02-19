@@ -2,6 +2,7 @@ import gadget from '../assets/img/hi-gadget2.png'
 import foodImg from '../assets/img/food-recipe-explore.png'
 import examImg from '../assets/img/exams.png'
 import jobImg from '../assets/img/job_search.png'
+import adminImg from "../assets/img/admin_dashboard.png"
 
 export const links = [
     {
@@ -72,7 +73,18 @@ export const projectData = [
         stack: "Frontend",
         github_link: "https://github.com/Samuel202093/food_recipe",
         url: "https://food-recipe-port.netlify.app"
+    },
+    {
+        id: 5,
+        title: "Admin Dashboard Application",
+        description: "I worked as the frontend developer on this project. The admin adds products in the application, suspend and unsuspend users and also integrated chart on the dashboard",
+        tags:["React", "Tailwindcss", "Typescript","Chartjs", "Zod", "Framer-motion"],
+        img: adminImg,
+        stack: "Frontend",
+        github_link: "https://github.com/Samuel202093/Typescript_Admin_Dashboard",
+        url: "https://typescriptadmindashboard.netlify.app/"
     }
+
 ]
 
 export const technicalSkills = [
