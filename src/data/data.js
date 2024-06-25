@@ -3,6 +3,7 @@ import foodImg from '../assets/img/food-recipe-explore.png'
 import examImg from '../assets/img/exams.png'
 import jobImg from '../assets/img/job_search.png'
 import adminImg from "../assets/img/admin_dashboard.png"
+import laravelImg from "../assets/img/laravel_jobsite_app.png"
 
 export const links = [
     {
@@ -83,6 +84,16 @@ export const projectData = [
         stack: "Frontend",
         github_link: "https://github.com/Samuel202093/Typescript_Admin_Dashboard",
         url: "https://typescriptadmindashboard.netlify.app/"
+    },
+    {
+        id: 6,
+        title: "JobHunt Application",
+        description: "I worked as a fullstack developer on this project. In this project, Only authorized users are allowed to add gigs and manage gigs in this project.",
+        tags:["Tailwindcss","Php", "Laravel", "MySql"],
+        img: laravelImg,
+        stack: "Fullstack",
+        github_link: "https://github.com/Samuel202093/jobsite_laravel_project",
+        url: ""
     }
 
 ]
@@ -125,8 +136,16 @@ export const technicalSkills = [
         percent: 75
     },
     {
+        name: 'Php',
+        percent: 70
+    },
+    {
         name: 'MongoDb',
         percent: 70
+    },
+    {
+        name: 'Mysql',
+        percent: 60
     },
     {
         name: 'PostgreSql',

@@ -34,7 +34,7 @@ const Modal = ({setShowModal, showModal}) => {
                 <h2 className='text-base font-semibold text-[rgb(50,48,40)]'>Technical Skills</h2>
                 <div className='w-fit min-h-[30vh] border-2y border-green-800y flex flex-wrap gap-6'>
                     {technicalSkills.map((x, index)=>{
-                        return(<span key={index} className='border-[1px] bg-[#488C3E] text-[rgb(255,250,246)] px-6 py-1 rounded-full text-sm font-semibold'>{x.name}</span>)
+                        return(<span key={index} className='border-[1px] bg-[#488C3E] text-[rgb(255,250,246)] px-6 py-2 rounded-full text-sm font-semibold'>{x.name}</span>)
                     })}
                 </div>
             </div>
