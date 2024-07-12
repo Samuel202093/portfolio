@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { CgHello } from "react-icons/cg";
 import { motion } from 'framer-motion';
 
 const HeroSection = ({handleShow}) => {
+  const [mobile, setMobile] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setMobile(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  
+
   return (
     <section className='lg:flex md:justify-between lg:w-[70%] min-h-[6vh] border-[1px]y border-blacky mx-auto p-2 lg:mt-10 md:mt-4' id='home'>
 
@@ -12,8 +22,10 @@ const HeroSection = ({handleShow}) => {
         <motion.div className='flex flex-col gap-3 lg:px-6 px-3 mt-8' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} transition={{type:"keyframes", duration: 1, delay: 0.85}}>
 
             <div className=' font-medium'>
-            <p className='flex text-xl tracking-wide '>Hello <CgHello className='mt-1 ml-2 text-xl text-[rgb(255,204,211)]y'/>, I'm Samuel, a Fullstack Developer.</p>
-        <p className='text-xl tracking-wide'>I create inventive solutions for complex problems with a focus on business requirements, transforming challenges into user-friendly solutions. A creative, flexible, a debugger, a team player and an efficient time manager.</p>
+
+              {mobile < 500 ? (   <p className='mobileParagraph flexy text-xl tracking-widey '>Hello I'm Samuel, a Fullstack Developer. I create inventive solutions for complex problems with a focus on business requirements, transforming challenges into user-friendly solutions. A creative, flexible, a debugger, a team player and an efficient time manager.</p>): ( <div>  <p className='largeScreenParagraph flex text-xl tracking-wide '>Hello <CgHello className='mt-1 ml-2 text-xl text-[rgb(255,204,211)]y'/>, I'm Samuel, a Fullstack Developer.</p>
+        <p className='text-xl tracking-wide'>I create inventive solutions for complex problems with a focus on business requirements, transforming challenges into user-friendly solutions. A creative, flexible, a debugger, a team player and an efficient time manager.</p> </div>)}
+      
         </div>
 
           <div className='flex flex-col-reverse md:flex-row gap-6 border-2y border-red-700y'>

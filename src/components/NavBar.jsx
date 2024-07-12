@@ -1,10 +1,7 @@
 import React, {useEffect} from 'react'
-// import CV from '../assets/file/samuel_resume_fullstack.pdf'
-// import CV from '../../src/assets/file/samuel_resume_fullstack.pdf'
+
 
 const NavBar = () => {
-
-  // const CV = new URL('../assets/file/samuel_resume_fullstack.pdf', import.meta.url);
 
   useEffect(()=>{
     const handleScroll = () => {
@@ -34,7 +31,6 @@ const NavBar = () => {
 
             <a href='https://github.com/Samuel202093' target='_blank' className='border-[1px] border-[rgb(50,48,40)] py-[0.3rem] text-[rgb(50,48,40)] font-medium tracking-wider px-9 rounded-[2rem] transition-all delay-75 hover:bg-[rgb(255,204,211)] md:mr-6 lg:ml-0'>Github</a>
             
-            {/* <a href={CV} className='border-[1px] border-[rgb(50,48,40)] font-medium text-[rgb(50,48,40)] transition-all delay-75 tracking-wider py-[0.3rem] px-9 rounded-[2rem] hover:bg-[rgb(255,204,211)]' download>Resume</a> */}
         </div>
 
     </nav>
