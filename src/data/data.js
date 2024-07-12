@@ -37,7 +37,7 @@ export const projectData = [
     {
         id: 1,
         title: "Examination Upload application",
-        description: "I worked as the backend developer on this project. The application is used for data entry and only authorized users can perform certain operations in the application.",
+        // description: "I worked as the backend developer on this project. The application is used for data entry and only authorized users can perform certain operations in the application.",
         tags:["NodeJs", "Express", "JWT", "Cloudinary", "Postgresql"],
         img: examImg,
         stack: "Backend",
@@ -47,7 +47,7 @@ export const projectData = [
     {
         id: 2,
         title: "Hi-Gadget E-commerce Application",
-        description: "I worked as the fullstack developer on this project. Users places order and then makes payment online.",
+        // description: "I worked as the fullstack developer on this project. Users places order and then makes payment online.",
         tags:["React","Tailwindcss", "Redux", "nodejs", "MongoDB", "Nodemailer", "Stripe", "Chartjs", "Framer-motion"],
         img: gadget,
         stack: "Fullstack",
@@ -58,7 +58,7 @@ export const projectData = [
     {
         id: 3,
         title: "Job-Zone Application",
-        description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
+        // description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
         tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext"],
         img: jobImg,
         stack: "Frontend",
@@ -68,7 +68,7 @@ export const projectData = [
     {
         id: 4,
         title: "Food-recipe Application",
-        description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
+        // description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
         tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext", "swiperjs", "External Api"],
         img: foodImg,
         stack: "Frontend",
@@ -78,7 +78,7 @@ export const projectData = [
     {
         id: 5,
         title: "Admin Dashboard Application",
-        description: "I worked as the frontend developer on this project. The admin adds products in the application, suspend and unsuspend users and also integrated chart on the dashboard",
+        // description: "I worked as the frontend developer on this project. The admin adds products in the application, suspend and unsuspend users and also integrated chart on the dashboard",
         tags:["React", "Tailwindcss", "Typescript","Chartjs", "Zod", "Framer-motion"],
         img: adminImg,
         stack: "Frontend",
@@ -88,7 +88,7 @@ export const projectData = [
     {
         id: 6,
         title: "JobHunt Application",
-        description: "I worked as a fullstack developer on this project. In this project, Only authorized users are allowed to add gigs and manage gigs in this project.",
+        // description: "I worked as a fullstack developer on this project. In this project, Only authorized users are allowed to add gigs and manage gigs in this project.",
         tags:["Tailwindcss","Php", "Laravel", "MySql"],
         img: laravelImg,
         stack: "Fullstack",
@@ -138,6 +138,14 @@ export const technicalSkills = [
     {
         name: 'Php',
         percent: 70
+    },
+    {   
+        name: 'Laravel',
+        percent: 60
+    },
+    {
+        name: 'GraphQl',
+        percent: 65
     },
     {
         name: 'MongoDb',

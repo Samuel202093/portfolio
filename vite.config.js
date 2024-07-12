@@ -6,5 +6,12 @@ export default defineConfig({
   plugins: [react()],
   define:{
     'process.env': {}
-  }
+  }, 
+  assetsInclude: ['**/*.pdf']
 })
+
+// vite.config.js
+// export default {
+//   assetsInclude: ['**/*.pdf']
+// }
+

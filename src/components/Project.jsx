@@ -12,7 +12,7 @@ const Project = () => {
             return(<div className='card p-4 text-[rgb(50,48,40)]' key={x.id}>
             <div>
                 <h3 className='text-xl font-bold '>{x.title}</h3>
-                <p className='text-sm'>{x.description}</p>
+                {/* <p className='text-sm'>{x.description}</p> */}
             </div>
             <hr className='border-1 border-black mt-3'/>
             <div className='mt-5 h-[200px] w-full image1-container'>
