@@ -1,5 +1,6 @@
 import gadget from '../assets/img/hi-gadget2.png'
 import foodImg from '../assets/img/food-recipe-explore.png'
+import najeePhoto from '../assets/img/najee-photo.png'
 import examImg from '../assets/img/exams.png'
 import jobImg from '../assets/img/job_search.png'
 import adminImg from "../assets/img/admin_dashboard.png"
@@ -36,16 +37,26 @@ export const links = [
 export const projectData = [
     {
         id: 1,
+        title: "Photography Web Application ",
+        // description: "I worked as the backend developer on this project. The application is used for data entry and only authorized users can perform certain operations in the application.",
+        tags:["NextJs","Typescript","NodeJs", "Tailwindcss", "useContext", "Framer-motion", "Express", "JWT", "Nodemailer", "Cloudinary", "rate-limiter", "idempotency", "MongoDB"],
+        img: najeePhoto,
+        stack: "Fullstack",
+        github_link:"",
+        url: "https://najeesphotography.com"
+    },
+    {
+        id: 2,
         title: "Examination Upload application",
         // description: "I worked as the backend developer on this project. The application is used for data entry and only authorized users can perform certain operations in the application.",
-        tags:["NodeJs", "Express", "JWT", "Cloudinary", "Postgresql"],
+        tags:["NodeJs", "Express", "JWT", "Typescript", "Cloudinary", "Postgresql"],
         img: examImg,
         stack: "Backend",
         github_link:"https://github.com/Samuel202093/exam_server",
         url: ""
     },
     {
-        id: 2,
+        id: 3,
         title: "Hi-Gadget E-commerce Application",
         // description: "I worked as the fullstack developer on this project. Users places order and then makes payment online.",
         tags:["React","Tailwindcss", "Redux", "nodejs", "MongoDB", "Nodemailer", "Stripe", "Chartjs", "Framer-motion"],
@@ -56,7 +67,7 @@ export const projectData = [
         
     },
     {
-        id: 3,
+        id: 4,
         title: "Job-Zone Application",
         // description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
         tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext"],
@@ -66,7 +77,7 @@ export const projectData = [
         url: "https://job-search-api.netlify.app"
     },
     {
-        id: 4,
+        id: 5,
         title: "Food-recipe Application",
         // description: "I worked as the frontend developer on this project. It has features of filteration, sorting and pagination.",
         tags:["React","Tailwindcss", "SWR", "React-toastify", "UseContext", "swiperjs", "External Api"],
@@ -76,7 +87,7 @@ export const projectData = [
         url: "https://food-recipe-port.netlify.app"
     },
     {
-        id: 5,
+        id: 6,
         title: "Admin Dashboard Application",
         // description: "I worked as the frontend developer on this project. The admin adds products in the application, suspend and unsuspend users and also integrated chart on the dashboard",
         tags:["React", "Tailwindcss", "Typescript","Chartjs", "Zod", "Framer-motion"],
@@ -86,7 +97,7 @@ export const projectData = [
         url: "https://typescriptadmindashboard.netlify.app/"
     },
     {
-        id: 6,
+        id: 7,
         title: "JobHunt Application",
         // description: "I worked as a fullstack developer on this project. In this project, Only authorized users are allowed to add gigs and manage gigs in this project.",
         tags:["Tailwindcss","Php", "Laravel", "MySql"],
