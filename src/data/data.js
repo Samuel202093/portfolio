@@ -42,7 +42,7 @@ export const projectData = [
         tags:["NextJs","Typescript","NodeJs", "Tailwindcss", "useContext", "Framer-motion", "Express", "JWT", "Nodemailer", "Cloudinary", "rate-limiter", "idempotency", "MongoDB"],
         img: najeePhoto,
         stack: "Fullstack",
-        github_link:"",
+        // github_link:"",
         url: "https://najeesphotography.com"
     },
     {
@@ -86,18 +86,18 @@ export const projectData = [
         github_link: "https://github.com/Samuel202093/food_recipe",
         url: "https://food-recipe-port.netlify.app"
     },
+    // {
+    //     id: 6,
+    //     title: "Admin Dashboard Application",
+    //     // description: "I worked as the frontend developer on this project. The admin adds products in the application, suspend and unsuspend users and also integrated chart on the dashboard",
+    //     tags:["React", "Tailwindcss", "Typescript","Chartjs", "Zod", "Framer-motion"],
+    //     img: adminImg,
+    //     stack: "Frontend",
+    //     github_link: "https://github.com/Samuel202093/Typescript_Admin_Dashboard",
+    //     url: "https://typescriptadmindashboard.netlify.app/"
+    // },
     {
         id: 6,
-        title: "Admin Dashboard Application",
-        // description: "I worked as the frontend developer on this project. The admin adds products in the application, suspend and unsuspend users and also integrated chart on the dashboard",
-        tags:["React", "Tailwindcss", "Typescript","Chartjs", "Zod", "Framer-motion"],
-        img: adminImg,
-        stack: "Frontend",
-        github_link: "https://github.com/Samuel202093/Typescript_Admin_Dashboard",
-        url: "https://typescriptadmindashboard.netlify.app/"
-    },
-    {
-        id: 7,
         title: "JobHunt Application",
         // description: "I worked as a fullstack developer on this project. In this project, Only authorized users are allowed to add gigs and manage gigs in this project.",
         tags:["Tailwindcss","Php", "Laravel", "MySql"],
